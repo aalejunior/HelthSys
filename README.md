@@ -6,5 +6,5 @@ Estou usando:
 
 - Html;
 - CSS;
-- Phyton Django futuramente;
+- Python Django futuramente;
 

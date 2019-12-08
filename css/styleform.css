@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: minmax(50px,auto);
+    grid-template-areas:"navbar navbar"
+    "footh footh";
+}
+
+.navbar{  
+    background-color: #2c32a1;
+    grid-area:navbar;
+    font-size: x-large;
+}
+
+.navbar .flex{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 12px;
+    color: white;
+    justify-content: content;
+}
+
+.navbar .flex .item a{  
+    background-color: #73c2b7;
+    border-color:black;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+}
+
+.content {
+    font-size:larger;
+    padding: 20px;
+    margin: auto;
+}    
+
+a{
+    text-decoration: none;
+}
+.card{  
+    padding: 20px;
+    box-shadow: 0px 2px 4px 0px rgb(0,0,0,028);
+    border-radius: 6px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+.card form input:not(.nop){
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.card form input:focus{
+    border-color:hsl(217, 71%, 53%) ;
+}
+
+.card form label{
+    font-weight: bold;
+}
+
+.card form button{
+    background-color: hsl(217, 71%, 53%);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+.card form button:hover{
+    cursor: pointer;
+    background-color: hsl(217, 72%, 44%);
+}
+
+
+.footh{
+    
+    text-align: center;
+    padding: 12px;
+    margin-top: 25px;
+    color: white;
+    background-color:#000000;
+    grid-area:footh;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preencha esses dados</title>
+    <link rel="stylesheet" type="text/css" href="css/styleform.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class= "navbar">
+    <div class ="flex">
+        <div class="logo">
+            <span>HelthSys</span> 
+        </div>
+            <div class="item">
+                <span></span><a href="index.html">
+                    SAIR
+                </a></span>
+            </div>
+    </div> 
+</div>
+<div class="content">  
+    <h1>Bem vindo ao cadastro de Atendimentos</h1>  
+    <p>Faça o cadastro de Atendimentos nesta página preenchendo o formulário</p>
+    <div class = "card">
+        <form action="" method="post" enctype="multipart/form-data">
+            <label>Paciente:</label>
+                <input type="text" placeholder="Informe o código do paciente" name="nomePacient" required>
+            <label>Médico:</label>
+                <input type="text" placeholder="Informe o código do Médico"  name="nomeMedic" required>
+            <label>Data:</label>
+                <input type="date" name="dataCadast" required>
+            <label>Hora:</label>
+                <input type="time" name="horaCadast" required>
+            <label>Finalizado:</label>
+                <input type="checkbox">
+            <label>Valor:</label>
+                <input type="number" placeholder="Informe o valor" name="valor"> 
+            <button>Cadastrar Atendimento</button>
+        </form>
+    </div>    
+</div>          
+<footer class="footh">
+    Todos os direitos reservados - 2019 &COPY; 
+</footer>    
+</body>
+</html>

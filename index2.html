@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preencha esses dados</title>
-    <link rel="stylesheet" type="text/css" href="css/styleform.css">
+    <link rel="stylesheet" type="text/css" href="/css/styleform.css">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class= "navbar">
-    <div class ="flex">
-        <div class="logo">
-                <span>HelthSys</span> 
-        </div>
+    <div class="navbar">
+        <div class="flex">
+            <figure class="logo">
+                <span>HelthSys</span>
+            </figure>
             <div class="item">
-                    <span><a href="index.html">
+                <span><a href="file:///home/chaaj/HelthSys/index.html">
                         SAIR
                     </a></span>
             </div>
-    </div> 
-</div>
-<div class= "content">  
-    <h1>Bem vindo ao cadastro de pacientes</h1>  
-    <p>Faça o cadastro de Pacientes nesta página preenchendo o formulário</p>
-            <div class = "card">
-                <form action="" method="post" enctype="multipart/form-data">
-                    <label>Nome:</label>
-                        <input type="text" placeholder="Informe seu nome aqui" name="nome" required>
-                    <label>CPF:</label>
-                        <input type="text" placeholder="Informe seu CPF aqui" maxlength="11" name="CPF" required>
-                    <label>Data de nascimento:</label>
-                        <input type="date" name="dataNasc" required>
-                    <label> Possui Plano de Saúde?</label><br>
-                    <label>SIM</label>
-                        <input class="nop" type="radio" name="a" value="SIM" id="SIM" required>
-                    <label>NÃO</label>
-                        <input class="nop" type="radio" name="a" value="NÃO" id="NÃO" required><br><br>
-                    <label>Cartão do SUS:</label>
-                        <input type="text" placeholder="Informe o numero do cartão do SUS" name="cartaoSUS" required>
-                    <label>Telefone:</label>
-                        <input type="text" placeholder="Informe o numero de celular" maxlength="10" name="Telefone" required>
-                    <label>Email:</label>
-                        <input type="email" placeholder="Informe o email" name="email">
-                    <label>Comprovante de residência:</label>
-                        <input type="file" ><br>
-                    <label>Sexo</label><br>    
-                    <label>Masculino</label>
-                        <input class="nop" type="radio" name="sexo" value="M" id="Masculino">       
-                    <label>Feminino</label>
-                        <input class= "nop" type="radio" name="sexo" value="F" id="Feminino"><br><br><br>
-                    <button>Cadastrar Paciente</button>
-                </form>
-            </div>    
-</div>        
-    
-<footer class="footh">
-            Todos os direitos reservados - 2019 &COPY; 
-</footer>    
+        </div>
+    </div>
+    <div class="content">
+        <h1>Bem vindo ao cadastro de pacientes</h1>
+        <p>Faça o cadastro de Pacientes nesta página preenchendo o formulário</p>
+        <div class="card">
+            <form action="" method="post" enctype="multipart/form-data">
+                <label>Nome:</label>
+                <input type="text" placeholder="Informe seu nome aqui" name="nome" required>
+                <label>CPF:</label>
+                <input type="text" placeholder="Informe seu CPF aqui" maxlength="11" name="CPF" required>
+                <label>Data de nascimento:</label>
+                <input type="date" name="dataNasc" required>
+                <label> Possui Plano de Saúde?</label><br>
+                <label>SIM</label>
+                <input class="nop" type="radio" name="a" value="SIM" id="SIM" required>
+                <label>NÃO</label>
+                <input class="nop" type="radio" name="a" value="NÃO" id="NÃO" required><br><br>
+                <label>Cartão do SUS:</label>
+                <input type="text" placeholder="Informe o numero do cartão do SUS" name="cartaoSUS" required>
+                <label>Telefone:</label>
+                <input type="text" placeholder="Informe o numero de celular" maxlength="10" name="Telefone" required>
+                <label>Email:</label>
+                <input type="email" placeholder="Informe o email" name="email">
+                <label>Comprovante de residência:</label>
+                <input type="file"><br>
+                <label>Sexo</label><br>
+                <label>Masculino</label>
+                <input class="nop" type="radio" name="sexo" value="M" id="Masculino">
+                <label>Feminino</label>
+                <input class="nop" type="radio" name="sexo" value="F" id="Feminino"><br><br><br>
+                <button>Cadastrar Paciente</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footh">
+        Todos os direitos reservados - 2019 &COPY;
+    </footer>
 </body>
+
 </html>

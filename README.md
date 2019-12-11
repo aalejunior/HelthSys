@@ -6,7 +6,6 @@ Estou usando:
 
 - Html;
 - CSS;
-<<<<<<< HEAD
 - Phyton Django futuramente;
 
 
